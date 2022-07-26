@@ -82,7 +82,7 @@
                 const room_name = $('input[name="room_name"]').val();
                 const start_time = $('input[name="start_time"]').val();
                 const finish_time = $('input[name="finish_time"]').val();
-                const week = $('input[name="week"]').val();
+                const week = $('select[name="week"]').val();
                 const msg = `${name}\n${room_name}\n${start_time}\n${finish_time}\n${week}`;
                 sendText(msg);
                 return false;
